@@ -75,8 +75,13 @@ class TextStyles {
   );
   static final buttonBoldBackground = GoogleFonts.inter(
     fontSize: 15,
-    fontWeight: FontWeight.w700,
-    color: AppColors.background,
+    fontWeight: FontWeight.w400,
+    color: AppColors.input,
+  );
+  static final input = GoogleFonts.inter(
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    color: AppColors.input,
   );
   static final captionBackground = GoogleFonts.inter(
     fontSize: 13,
